@@ -1,0 +1,323 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#70a1e0;
+    
+
+    
+}
+.name{
+    
+    width: 100%;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.port  img{
+
+    width: 200px;
+    height: 100px;
+    margin-left: -500px;
+
+}
+.navbar{
+    display:flex;
+    gap: 20px;
+    justify-content:flex-end;
+    align-items: center;
+
+    margin-top: 0px;
+    margin-left:330px;
+    font-size: 25px;
+    
+
+}
+.navbar a{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: #1322ec;
+
+
+}
+.navbar a:hover{
+        
+        
+        font-size: 28px;
+        font-family: poppins;
+
+}
+.logo h4{
+      
+      font-size: 40px;
+      margin-top: 60px;
+      font-family: sans-serif;
+      margin-left: 400px;
+      color:rgb(46, 46, 230) ;
+      margin-top: 50px;
+    
+    
+}
+.content{
+    font-size: 40px;
+    margin-top: 220px;
+    margin-left: 200px;
+}
+/*.img{
+     filter: drop-shadow(10px 8px 6px #ff0055);*/
+.buttons {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+.button1 input{
+    font-size: 28px;
+    padding: 5px;
+    font-weight: 300;
+    border-radius: 25px;
+    color:#1322ec;
+    background-color:#70a1e0;
+
+    
+
+}
+.button2 input{
+    font-size: 28px;
+    padding: 5px;
+    font-weight: 300;
+    border-radius: 25px;
+    top: 20px;
+    color:#1322ec;
+    background-color:#70a1e0;
+
+
+}
+.buttons input:hover{
+           transform: scale(1.08);
+}
+.img{
+    margin-left: 750px;
+    margin-top: -400px;
+
+    
+}
+.aboutme{
+    margin-top: 150px;
+    font-size: 26px;
+    margin-left: 150px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 1px grey;
+    
+}
+.aboutcont{
+    margin-left: 250px;
+    margin-top: 110px;
+}
+.contentimg{
+    margin-top: -200px;
+}
+
+
+.photo{
+    display: grid;
+}
+.grid{
+    max-width: fit-content;
+    height:350px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 80px;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    height:fit-content;
+    width: fit-content;
+    box-shadow: 2px 4px 8px;
+
+
+
+
+
+}
+.skills{
+    margin-top: 100px;
+    font-size: 45px;
+    align-items: center;
+    margin-left: 350px;
+    font-family: sans-serif;
+}
+
+.container{
+    margin-top: 60px;
+    border: 2px solid black;
+    width: 900px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#70a1e0;
+}
+
+.skillbox .skillbar{
+    height: 30px;
+    width: 95%;
+    border-radius: 8px;
+
+    background: rgba(0,0,0,0.7);
+}
+.skillbox .skillper{
+             position: relative;
+             display: flex;
+             height: 100%;
+             width: 85%;
+             background:#1a27da;
+             margin-top:  25px;
+
+
+        
+}
+.title span{
+    margin-top: 20px;
+}
+.project1{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.project{
+    max-width:900px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+    padding: 40px;
+    border: 2px solid black;
+    
+
+    
+}
+.project1{
+    margin-left: 300px;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.photocont{
+    margin-left: 300px;
+    margin-top: -300px;
+}
+.quiz h2{
+    margin-top: -250px;
+    margin-left: 400px;
+
+}
+.quizcont{
+    margin-left: 340px;
+    display: flex;
+    flex-direction: row;
+    width:500px;
+    font-family: sans-serif;
+
+
+
+}
+.project2 {
+    max-width:900px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 40px;
+    border: 2px solid black;
+
+
+}
+.photo2{
+    margin-top: -35px
+}
+.commercecont{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+.commerce{
+    margin-top: -250px;
+    margin-left: 380px;
+
+}
+.commerce h2{
+    margin-top: -250px;
+}
+.project3{
+ max-width:900px;
+height:300px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin-top: 50px;
+padding: 40px;
+border: 2px solid black;
+}
+.photo3{
+    margin: -30px;
+}
+.calc h2{
+    margin-left: 330px;
+    margin-top: -280px;
+}
+.calccontent{
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.contact{
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 190px;
+}
+.contactinfo{
+    margin-top: 50px;
+}
+.social img{
+    display:inline;
+    flex-direction:row;
+    align-items: flex-start;
+    height: 50px;
+    width: 50px;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.inst{
+    margin-left: -100px;
+    margin-top: -40px;
+}
+.twit{
+    margin-left: 19px;
+    margin-top: -100px;
+}
+.face{
+    margin-left: -40px;
+    margin-top: -110px;
+}
+.copyrights{
+    margin-top: -60px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+    
+
+
